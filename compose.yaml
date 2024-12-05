@@ -1,0 +1,7 @@
+services:
+  kode-next:
+    container_name: kode-next
+    build:
+      context: .
+    ports:
+      - 40000:40000
